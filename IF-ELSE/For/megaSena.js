@@ -10,8 +10,6 @@ for (let i = 0; i < 6; i++){
         megaSena.push(numero);
     }
 }
-console.log(megaSena)
-
 //==============================================================
 
 let quantidadeAcertos = 0;
@@ -26,5 +24,8 @@ for(let i = 0; i < fezinha.length; i ++){ //Fezinha
     }
 }
 
+console.log(`Fezinha: ${fezinha}`);
+console.log(`Mega-sena: ${megaSena}`);
+console.log("==============================================")
 console.log(`Quantidades de acertos: ${quantidadeAcertos}`);
 console.log(`Acertados: ${acertos}`);
