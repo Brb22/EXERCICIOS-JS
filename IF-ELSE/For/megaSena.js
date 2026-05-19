@@ -1,6 +1,7 @@
 const fezinha = [2, 4, 7, 23, 32, 54];
 const megaSena = [];
 
+//Geração de números aleatórios da mega-sena sem repetir!
 for (let i = 0; i < 6; i++){
     let numero = Math.ceil(Math.random() * 60);
     if (megaSena.includes(numero)){
@@ -10,6 +11,9 @@ for (let i = 0; i < 6; i++){
     }
 }
 console.log(megaSena)
+
+//==============================================================
+
 let quantidadeAcertos = 0;
 let acertos = [];
 
