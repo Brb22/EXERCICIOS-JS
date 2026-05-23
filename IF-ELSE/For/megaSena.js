@@ -1,4 +1,4 @@
-/*const fezinha = [2, 4, 7, 23, 32, 54];
+const fezinha = [2, 4, 7, 23, 32, 54];
 const megaSena = [];
 
 //Geração de números aleatórios da mega-sena sem repetir!
@@ -29,5 +29,5 @@ console.log(`Mega-sena: ${megaSena}`);
 console.log("==============================================")
 console.log(`Quantidades de acertos: ${quantidadeAcertos}`);
 console.log(`Acertados: ${acertos}`);
-*/
+
 
